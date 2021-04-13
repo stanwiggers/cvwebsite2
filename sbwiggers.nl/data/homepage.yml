@@ -1,0 +1,108 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Raditian"
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Stan."
+  subtitle: "Student and BI Specialist"
+  description: "Welcome to my website! On this website you can find some information about me, how you can contact me and you can look at my resume."
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase3.png"
+    _2x: "img/showcase/showcase@2x3.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile3.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:stanbenjaminwiggers@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/stan-wiggers-765a3ba2/"
+
+    - icon: "github"
+      URL: "https://github.com/stanwiggers/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    Hi there! My name is Stan Wiggers, I am 25 years old and live in Deventer. I would describe myself as a calm go-getter who likes to look at things analytically.
+    </p>
+    <p class="lead">
+    I am a sports enthusiast, I love hanging out with friends and every now and then I like to turn on my DJ Controller to mix music or turn on my PlayStation to play videogames.
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/stan-wiggers-765a3ba2/"
+  image:
+    x: "img/who-am-i/avatar.jpg"
+    _2x: "img/who-am-i/avatar.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Tilburg University"
+      year: "2019-2021"
+      degree: "MSc Marketing Analytics"
+
+    - university: "Hogeschool Saxion"
+      year: "2013-2018"
+      degree: "Bachelor Commercial Economics"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Do you want to know more about my experience? Check out my LinkedIn page, or you can look at my resume."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/stan-wiggers-765a3ba2/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "My Resume"
+    URL: "#"
+
+  items:
+    - title: "BI Specialist"
+      company: "bol.com"
+      duration: "Mar 2021 - Present"
+
+    - title: "Digital Marketer"
+      company: "Haverkamp"
+      duration: "Mar 2017 - Jan 2018 & Oct 2019 - Feb 2021"
+
+    - title: "Content Specialist"
+      company: "bol.com"
+      duration: "Apr 2019 - Sep 2019"
+
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+316 53121505"
+  email:
+    title: "Email"
+    email: '<a href="mailto:stanbenjaminwiggers@gmail.com">stanbenjaminwiggers@gmail.com</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
